@@ -1,9 +1,10 @@
 import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
   experimental: {
-    appDir: true, // Enable the App Router
-  },
+    serverActions: {} 
+  }
 };
 
 export default nextConfig;

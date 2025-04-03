@@ -15,8 +15,10 @@
     "incremental": true,
     "baseUrl": "./src",
     "paths": {
-      "@/components/*": ["components/*"]
+  "@/components/*": ["components/*"],
+  "@/app/*": ["app/*"]
     },
+
     "plugins": [
       {
         "name": "next"
